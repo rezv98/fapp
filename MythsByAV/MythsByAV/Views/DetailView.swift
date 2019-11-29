@@ -18,7 +18,9 @@ struct DetailView: View {
     var offColor = Color.gray
     var onColor = Color.yellow
     @Environment(\.managedObjectContext) var moc
-    //@FetchRequest(fetchRequest: GodData.allGodsFetchRequest()) var gods: FetchedResults<GodData>
+    @FetchRequest(/*fetchRequest: GodData.allGodsFetchRequest()*/
+        entity: God.entity(),sortDescriptors: [],predicate: NSPredicate(format:"rating == %@","5")
+    ) var gods: FetchedResults<GodData>
     var body: some View {
         VStack() {
             Image("Busto-de-Poseidon")
