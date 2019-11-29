@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F05C39623802CAF00C4B4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C39523802CAF00C4B4C2 /* AppDelegate.swift */; };
+		7F05C39823802CAF00C4B4C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C39723802CAF00C4B4C2 /* SceneDelegate.swift */; };
+		7F05C39B23802CAF00C4B4C2 /* MythsByAV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C39923802CAF00C4B4C2 /* MythsByAV.xcdatamodeld */; };
+		7F05C39D23802CAF00C4B4C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C39C23802CAF00C4B4C2 /* ContentView.swift */; };
+		7F05C39F23802CB300C4B4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F05C39E23802CB300C4B4C2 /* Assets.xcassets */; };
+		7F05C3A223802CB300C4B4C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F05C3A123802CB300C4B4C2 /* Preview Assets.xcassets */; };
+		7F05C3A523802CB300C4B4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F05C3A323802CB300C4B4C2 /* LaunchScreen.storyboard */; };
+		7F05C3B32380452300C4B4C2 /* God.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3B22380452300C4B4C2 /* God.swift */; };
+		7F05C3B52380463600C4B4C2 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3B42380463600C4B4C2 /* Hero.swift */; };
+		7F05C3B72380473100C4B4C2 /* GreekMythologyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3B62380473100C4B4C2 /* GreekMythologyService.swift */; };
+		7F05C3B923804CB700C4B4C2 /* GodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3B823804CB700C4B4C2 /* GodViewModel.swift */; };
+		7F05C3BB23804DE100C4B4C2 /* GodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3BA23804DE100C4B4C2 /* GodListViewModel.swift */; };
+		7F05C3BD23804F4400C4B4C2 /* GodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3BC23804F4400C4B4C2 /* GodListView.swift */; };
+		7F05C3BF238054C600C4B4C2 /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3BE238054C600C4B4C2 /* HeroViewModel.swift */; };
+		7F05C3C12380560100C4B4C2 /* HeroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3C02380560100C4B4C2 /* HeroListViewModel.swift */; };
+		7F05C3C3238058C900C4B4C2 /* HeroListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F05C3C2238058C900C4B4C2 /* HeroListView.swift */; };
+		7F9E00B923838ACA0028911E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E00B823838ACA0028911E /* OnboardingView.swift */; };
+		7F9E00BB238394E40028911E /* UserDefaultsPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E00BA238394E40028911E /* UserDefaultsPropertyWrapper.swift */; };
+		7F9E00BD238398120028911E /* UserDefaultsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E00BC238398120028911E /* UserDefaultsConfig.swift */; };
+		7F9E00BF238399B80028911E /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E00BE238399B80028911E /* SettingsStore.swift */; };
+		D9FF1AD62390B20F00FB3CEF /* Myth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1AD52390B20F00FB3CEF /* Myth.swift */; };
+		D9FF1AD82390B87300FB3CEF /* MythViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1AD72390B87300FB3CEF /* MythViewModel.swift */; };
+		D9FF1ADA2390BA7500FB3CEF /* MythListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1AD92390BA7500FB3CEF /* MythListViewModel.swift */; };
+		D9FF1ADC2390BBB000FB3CEF /* MythList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1ADB2390BBB000FB3CEF /* MythList.swift */; };
+		D9FF1ADE2390C20D00FB3CEF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1ADD2390C20C00FB3CEF /* DetailView.swift */; };
+		D9FF1AE02390C4D100FB3CEF /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1ADF2390C4D100FB3CEF /* HeroDetailView.swift */; };
+		D9FF1AE22390C55500FB3CEF /* MythDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1AE12390C55500FB3CEF /* MythDetailView.swift */; };
+		D9FF1AE42391506C00FB3CEF /* GodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF1AE32391506B00FB3CEF /* GodData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F05C39223802CAF00C4B4C2 /* MythsByAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MythsByAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F05C39523802CAF00C4B4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F05C39723802CAF00C4B4C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F05C39A23802CAF00C4B4C2 /* MythsByAV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MythsByAV.xcdatamodel; sourceTree = "<group>"; };
+		7F05C39C23802CAF00C4B4C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F05C39E23802CB300C4B4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F05C3A123802CB300C4B4C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F05C3A423802CB300C4B4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F05C3A623802CB300C4B4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F05C3B22380452300C4B4C2 /* God.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = God.swift; sourceTree = "<group>"; };
+		7F05C3B42380463600C4B4C2 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		7F05C3B62380473100C4B4C2 /* GreekMythologyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekMythologyService.swift; sourceTree = "<group>"; };
+		7F05C3B823804CB700C4B4C2 /* GodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodViewModel.swift; sourceTree = "<group>"; };
+		7F05C3BA23804DE100C4B4C2 /* GodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodListViewModel.swift; sourceTree = "<group>"; };
+		7F05C3BC23804F4400C4B4C2 /* GodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodListView.swift; sourceTree = "<group>"; };
+		7F05C3BE238054C600C4B4C2 /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		7F05C3C02380560100C4B4C2 /* HeroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListViewModel.swift; sourceTree = "<group>"; };
+		7F05C3C2238058C900C4B4C2 /* HeroListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroListView.swift; sourceTree = "<group>"; };
+		7F9E00B823838ACA0028911E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7F9E00BA238394E40028911E /* UserDefaultsPropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsPropertyWrapper.swift; sourceTree = "<group>"; };
+		7F9E00BC238398120028911E /* UserDefaultsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsConfig.swift; sourceTree = "<group>"; };
+		7F9E00BE238399B80028911E /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		D9FF1AD52390B20F00FB3CEF /* Myth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myth.swift; sourceTree = "<group>"; };
+		D9FF1AD72390B87300FB3CEF /* MythViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythViewModel.swift; sourceTree = "<group>"; };
+		D9FF1AD92390BA7500FB3CEF /* MythListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythListViewModel.swift; sourceTree = "<group>"; };
+		D9FF1ADB2390BBB000FB3CEF /* MythList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythList.swift; sourceTree = "<group>"; };
+		D9FF1ADD2390C20C00FB3CEF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D9FF1ADF2390C4D100FB3CEF /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		D9FF1AE12390C55500FB3CEF /* MythDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MythDetailView.swift; sourceTree = "<group>"; };
+		D9FF1AE32391506B00FB3CEF /* GodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F05C38F23802CAF00C4B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F05C38923802CAF00C4B4C2 = {
+			isa = PBXGroup;
+			children = (
+				7F05C39423802CAF00C4B4C2 /* MythsByAV */,
+				7F05C39323802CAF00C4B4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F05C39323802CAF00C4B4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C39223802CAF00C4B4C2 /* MythsByAV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F05C39423802CAF00C4B4C2 /* MythsByAV */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C3AF23802CFA00C4B4C2 /* Services */,
+				7F05C3AE23802CF200C4B4C2 /* Models */,
+				7F05C3AD23802CDE00C4B4C2 /* Views */,
+				7F05C3AC23802CC900C4B4C2 /* ViewModels */,
+				7F05C39523802CAF00C4B4C2 /* AppDelegate.swift */,
+				7F05C39723802CAF00C4B4C2 /* SceneDelegate.swift */,
+				7F05C39E23802CB300C4B4C2 /* Assets.xcassets */,
+				7F05C3A323802CB300C4B4C2 /* LaunchScreen.storyboard */,
+				7F05C3A623802CB300C4B4C2 /* Info.plist */,
+				7F05C39923802CAF00C4B4C2 /* MythsByAV.xcdatamodeld */,
+				7F05C3A023802CB300C4B4C2 /* Preview Content */,
+				D9FF1AE32391506B00FB3CEF /* GodData.swift */,
+			);
+			path = MythsByAV;
+			sourceTree = "<group>";
+		};
+		7F05C3A023802CB300C4B4C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C3A123802CB300C4B4C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F05C3AC23802CC900C4B4C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C3B823804CB700C4B4C2 /* GodViewModel.swift */,
+				7F05C3BA23804DE100C4B4C2 /* GodListViewModel.swift */,
+				7F05C3BE238054C600C4B4C2 /* HeroViewModel.swift */,
+				7F05C3C02380560100C4B4C2 /* HeroListViewModel.swift */,
+				D9FF1AD72390B87300FB3CEF /* MythViewModel.swift */,
+				D9FF1AD92390BA7500FB3CEF /* MythListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7F05C3AD23802CDE00C4B4C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C39C23802CAF00C4B4C2 /* ContentView.swift */,
+				7F05C3BC23804F4400C4B4C2 /* GodListView.swift */,
+				7F05C3C2238058C900C4B4C2 /* HeroListView.swift */,
+				7F9E00B823838ACA0028911E /* OnboardingView.swift */,
+				D9FF1ADB2390BBB000FB3CEF /* MythList.swift */,
+				D9FF1ADD2390C20C00FB3CEF /* DetailView.swift */,
+				D9FF1ADF2390C4D100FB3CEF /* HeroDetailView.swift */,
+				D9FF1AE12390C55500FB3CEF /* MythDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F05C3AE23802CF200C4B4C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C3B22380452300C4B4C2 /* God.swift */,
+				7F05C3B42380463600C4B4C2 /* Hero.swift */,
+				7F9E00BA238394E40028911E /* UserDefaultsPropertyWrapper.swift */,
+				7F9E00BC238398120028911E /* UserDefaultsConfig.swift */,
+				7F9E00BE238399B80028911E /* SettingsStore.swift */,
+				D9FF1AD52390B20F00FB3CEF /* Myth.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F05C3AF23802CFA00C4B4C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7F05C3B62380473100C4B4C2 /* GreekMythologyService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F05C39123802CAF00C4B4C2 /* MythsByAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F05C3A923802CB300C4B4C2 /* Build configuration list for PBXNativeTarget "MythsByAV" */;
+			buildPhases = (
+				7F05C38E23802CAF00C4B4C2 /* Sources */,
+				7F05C38F23802CAF00C4B4C2 /* Frameworks */,
+				7F05C39023802CAF00C4B4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MythsByAV;
+			productName = MythsByAV;
+			productReference = 7F05C39223802CAF00C4B4C2 /* MythsByAV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F05C38A23802CAF00C4B4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = UPC;
+				TargetAttributes = {
+					7F05C39123802CAF00C4B4C2 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F05C38D23802CAF00C4B4C2 /* Build configuration list for PBXProject "MythsByAV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F05C38923802CAF00C4B4C2;
+			productRefGroup = 7F05C39323802CAF00C4B4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F05C39123802CAF00C4B4C2 /* MythsByAV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F05C39023802CAF00C4B4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F05C3A523802CB300C4B4C2 /* LaunchScreen.storyboard in Resources */,
+				7F05C3A223802CB300C4B4C2 /* Preview Assets.xcassets in Resources */,
+				7F05C39F23802CB300C4B4C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F05C38E23802CAF00C4B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F05C39623802CAF00C4B4C2 /* AppDelegate.swift in Sources */,
+				7F05C3B72380473100C4B4C2 /* GreekMythologyService.swift in Sources */,
+				7F05C39823802CAF00C4B4C2 /* SceneDelegate.swift in Sources */,
+				7F9E00B923838ACA0028911E /* OnboardingView.swift in Sources */,
+				7F9E00BF238399B80028911E /* SettingsStore.swift in Sources */,
+				D9FF1ADE2390C20D00FB3CEF /* DetailView.swift in Sources */,
+				D9FF1AD62390B20F00FB3CEF /* Myth.swift in Sources */,
+				7F05C39D23802CAF00C4B4C2 /* ContentView.swift in Sources */,
+				7F05C3BF238054C600C4B4C2 /* HeroViewModel.swift in Sources */,
+				D9FF1ADA2390BA7500FB3CEF /* MythListViewModel.swift in Sources */,
+				D9FF1ADC2390BBB000FB3CEF /* MythList.swift in Sources */,
+				7F05C3C12380560100C4B4C2 /* HeroListViewModel.swift in Sources */,
+				7F05C3BB23804DE100C4B4C2 /* GodListViewModel.swift in Sources */,
+				7F9E00BD238398120028911E /* UserDefaultsConfig.swift in Sources */,
+				7F05C3B923804CB700C4B4C2 /* GodViewModel.swift in Sources */,
+				7F05C3B52380463600C4B4C2 /* Hero.swift in Sources */,
+				7F9E00BB238394E40028911E /* UserDefaultsPropertyWrapper.swift in Sources */,
+				7F05C3C3238058C900C4B4C2 /* HeroListView.swift in Sources */,
+				D9FF1AD82390B87300FB3CEF /* MythViewModel.swift in Sources */,
+				D9FF1AE02390C4D100FB3CEF /* HeroDetailView.swift in Sources */,
+				7F05C3B32380452300C4B4C2 /* God.swift in Sources */,
+				7F05C3BD23804F4400C4B4C2 /* GodListView.swift in Sources */,
+				7F05C39B23802CAF00C4B4C2 /* MythsByAV.xcdatamodeld in Sources */,
+				D9FF1AE22390C55500FB3CEF /* MythDetailView.swift in Sources */,
+				D9FF1AE42391506C00FB3CEF /* GodData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F05C3A323802CB300C4B4C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F05C3A423802CB300C4B4C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F05C3A723802CB300C4B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F05C3A823802CB300C4B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F05C3AA23802CB300C4B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MythsByAV/Preview Content\"";
+				DEVELOPMENT_TEAM = 8468U436K8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MythsByAV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MythsByAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F05C3AB23802CB300C4B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MythsByAV/Preview Content\"";
+				DEVELOPMENT_TEAM = 8468U436K8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MythsByAV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MythsByAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F05C38D23802CAF00C4B4C2 /* Build configuration list for PBXProject "MythsByAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F05C3A723802CB300C4B4C2 /* Debug */,
+				7F05C3A823802CB300C4B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F05C3A923802CB300C4B4C2 /* Build configuration list for PBXNativeTarget "MythsByAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F05C3AA23802CB300C4B4C2 /* Debug */,
+				7F05C3AB23802CB300C4B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F05C39923802CAF00C4B4C2 /* MythsByAV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F05C39A23802CAF00C4B4C2 /* MythsByAV.xcdatamodel */,
+			);
+			currentVersion = 7F05C39A23802CAF00C4B4C2 /* MythsByAV.xcdatamodel */;
+			path = MythsByAV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F05C38A23802CAF00C4B4C2 /* Project object */;
+}
